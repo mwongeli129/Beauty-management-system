@@ -1,0 +1,71 @@
+.popup {
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    width: 40%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px 5px rgb(82, 214, 82);
+    border-radius: 10px;
+  }
+  
+  .popup-inner {
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .mpesa{
+    width: 100%;
+    background-color: green;
+  }
+  .mpesa h3{
+    text-align: center;
+    color: white;
+  }
+  input[type="number"]{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+  border: 1px solid #ccc;
+  text-align: center;
+
+  }
+  input[type="number"]:focus {
+    border-color: green;
+    box-shadow: 0 0 5px rgb(82, 214, 82);
+    outline: none;
+  }
+  input[type="tel"]{
+    padding: 10px 20px;
+    border-radius: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+
+
+  }
+  input[type="tel"]:focus {
+    border-color: green;
+    box-shadow: 0 0 5px rgb(82, 214, 82);
+    outline: none;
+  }
+  #send{
+    padding: 7px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 2%;
+  }
+  #Cancel{
+    padding: 7px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 2%;
+
+  }
+  
